@@ -1,0 +1,25 @@
+<Project Sdk="Microsoft.NET.Sdk">
+<Import Project="../../props/common.props" />
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+
+    <IsPackable>false</IsPackable>
+
+    <AssemblyName>PulsarBlow.DotNetCoreBoilerplate.Tests.Unit</AssemblyName>
+
+    <RootNamespace>PulsarBlow.DotNetCoreBoilerplate.Tests.Unit</RootNamespace>
+  </PropertyGroup>
+
+    <ItemGroup>
+    <PackageReference Include="coverlet.collector" Version="$(CoverletCollectorVersion)" />
+    <PackageReference Include="xunit" Version="$(XUnitVersion)" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="$(XUnitRunnerVersion)" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="$(TestSdkVersion)" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\src\DotNetCoreBoilerplate\DotNetCoreBoilerplate.csproj" />
+  </ItemGroup>
+
+</Project>

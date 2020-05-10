@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <Import Project="../../props/common.props" />
+  <Import Project="../../props/package.props" />
+
+  <PropertyGroup>
+    <Nullable>enable</Nullable>
+    <Title>DotNetCoreBoilerPlate</Title>
+    <Summary>A lightweight .NET Core Class Library boilerplate, stripped to its bare minimum, powered by an optimized build system.</Summary>
+    <PackageTags>boiletplate;.net core;dotnet core;sample;demo;github actions</PackageTags>
+    <PackageReleaseNotes>v1.0-alpha: Initial version</PackageReleaseNotes>
+    <AssemblyName>PulsarBlow.DotNetCoreBoilerplate</AssemblyName>
+    <RootNamespace>PulsarBlow.DotNetCoreBoilerplate</RootNamespace>
+  </PropertyGroup>
+
+</Project>
