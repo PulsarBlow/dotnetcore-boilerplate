@@ -1,8 +1,8 @@
 <p align="center">
-  <img alt="DotNetCore Boilerplate" src="assets/dotnetcore-boilerplate.svg" width="60" />
+  <img alt=".NET Core Boilerplate" src="assets/dotnetcore-boilerplate.svg" width="90" />
 </p>
 <h1 align="center">
-  DotNetCore Boilerplate
+  .NET Core Boilerplate
 </h1>
 
 A lightweight .NET Core Class Library boilerplate, stripped to its bare minimum, powered by an optimized build system.
