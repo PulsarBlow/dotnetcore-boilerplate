@@ -22,4 +22,4 @@ jobs:
     - name: Build release
       run: dotnet build --configuration Release --no-restore
     - name: Test & Coverage
-      run: dotnet test --no-restore --collect:"XPlat Code Coverage" --settings ./build/coverlet.runsettings -v n -r .build/
+      run: dotnet test --no-restore --collect:"XPlat Code Coverage" --settings ./build/coverage.runsettings -v n -r .build/
