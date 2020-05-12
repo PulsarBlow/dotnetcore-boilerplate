@@ -1,5 +1,7 @@
+![Release](https://github.com/PulsarBlow/dotnetcore-boilerplate/workflows/Release/badge.svg) ![Continuous Integration](https://github.com/PulsarBlow/dotnetcore-boilerplate/workflows/Continuous%20Integration/badge.svg)
+
 <p align="center">
-  <img alt=".NET Core Boilerplate" src="assets/dotnetcore-boilerplate.svg" width="90" />
+  <img alt=".NET Core Boilerplate" src="assets/icon.svg" width="90" />
 </p>
 <h1 align="center">
   .NET Core Boilerplate
@@ -43,7 +45,7 @@ When you create a new Github release, a Github event is triggered at the reposit
 
 See the [Release workflow](.github/workflows/release.yml) file for more details
 
-## Project properties
+## 🎛 Project properties
 
 To improve maintainability of project dependencies and configuration attributes, global properties have been exported into importable *.props files:
 
@@ -56,6 +58,6 @@ To improve maintainability of project dependencies and configuration attributes,
 ```
 
 
-# Attributions
+## 🦄 Attributions
 
 .NET Core Boilerplate icons made by [Smashicons](https://www.flaticon.com/authors/smashicons) from [Flaticon](https://www.flaticon.com/)
