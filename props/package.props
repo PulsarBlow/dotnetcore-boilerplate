@@ -1,10 +1,9 @@
 <Project>
 
   <PropertyGroup>
-    <Authors>Alain Mereaux (PulsarBlow)</Authors>
+    <Authors>PulsarBlow</Authors>
     <Company>pulsarblow.dev</Company>
     <Copyright>© 2020 Alain Mereaux</Copyright>
-    <Description>DotNetCore Boiler Plate, as it name implies, is a .NET Core boiler plate.</Description>
     <PackageLicenseFile>LICENCE</PackageLicenseFile>
     <PackageProjectUrl>https://github.com/PulsarBlow/dotnetcore-boilerplate/</PackageProjectUrl>
     <PackageIcon>icon.png</PackageIcon>
@@ -16,7 +15,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <None Include="../../assets/dotnetcore-boilerplate-128x128.png" Pack="true" PackagePath="icon.png"/>
+    <None Include="../../assets/icon-128x128.png" Pack="true" PackagePath="icon.png"/>
     <None Include="../../LICENCE" Pack="true" PackagePath=""/>
   </ItemGroup>
 
