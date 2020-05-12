@@ -11,8 +11,6 @@ on:
       - 'v*' # Push events to matching v*, i.e. v1.0, v20.15.10
 
 name: Release
-env:
-  GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automaticaly provided by Github workflow
 jobs:
   build:
     name: Build package
@@ -83,6 +81,8 @@ jobs:
     steps:
       - name: Create Release
         uses: actions/create-release@v1
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # Automaticaly provided by Github workflow
         with:
           tag_name: ${{ github.ref }}
           release_name: Release ${{ github.ref }}
